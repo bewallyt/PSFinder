@@ -1,0 +1,29 @@
+{
+  "name": "PSFinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^13.13.2",
+    "@types/nodemailer": "^6.4.0",
+    "cron": "^1.8.2",
+    "cross-fetch": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.6",
+    "open": "^7.3.0",
+    "ts-node": "^9.0.0",
+    "twilio": "^3.42.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "start": "ts-node -O '{\"module\":\"commonjs\", \"target\":\"es2017\"}' ./find-ps5-script.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
